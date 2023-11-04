@@ -2338,17 +2338,37 @@
     {
       "email": "admin@gmail.com",
       "password": "q",
-      "id": 1
+      "id": 1,
+      "addresses": [
+        {
+          "name": "shiv kumar singh",
+          "email": "shiv01.chemengg@gmail.com",
+          "phone": "12345678",
+          "street": "police control room jbad bhopal",
+          "city": "Bhopal",
+          "state": "MP",
+          "pinCode": "462008"
+        },
+        {
+          "name": "admin",
+          "email": "admin@gmail.com",
+          "phone": "12345",
+          "street": "hello",
+          "city": "indore",
+          "state": "UP",
+          "pinCode": "201000"
+        }
+      ]
     },
     {
       "email": "shiv01.chemengg@gmail.com",
       "password": "q",
-      "id": 2
+      "id": 2,
+      "addresses": []
     }
   ],
   "cart": [
     {
-      "id": 2,
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
@@ -2364,49 +2384,30 @@
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
+      "quantity": 1,
       "user": 1,
-      "quantity": 1
+      "id": 1
     },
     {
-      "id": 8,
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ],
-      "user": 1,
-      "quantity": 1
-    },
-    {
-      "id": 6,
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
       "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
+      "quantity": 1,
       "user": 2,
-      "quantity": 4
+      "id": 2
     }
-  ]
+  ],
+  "orders": []
 }
